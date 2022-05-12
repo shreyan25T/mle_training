@@ -1,0 +1,17 @@
+{
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "folders": [
+        {
+            "path": "D:\\mle_training"
+        }
+    ],
+    "settings": {},
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true,
+        "source.sortMembers": true
+    },
+    "editor.formatOnSave": true
+}
+
