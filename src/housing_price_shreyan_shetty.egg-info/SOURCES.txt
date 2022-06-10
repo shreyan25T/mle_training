@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/housing_pkg/__init__.py
+src/housing_pkg/custom_logger.py
+src/housing_pkg/ingest_data.py
+src/housing_pkg/processing.py
+src/housing_pkg/score.py
+src/housing_pkg/test_cal.py
+src/housing_pkg/train.py
+src/housing_price_shreyan_shetty.egg-info/PKG-INFO
+src/housing_price_shreyan_shetty.egg-info/SOURCES.txt
+src/housing_price_shreyan_shetty.egg-info/dependency_links.txt
+src/housing_price_shreyan_shetty.egg-info/top_level.txt
