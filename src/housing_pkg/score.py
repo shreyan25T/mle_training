@@ -1,4 +1,6 @@
 import argparse
+from asyncio.log import logger
+import logging
 import os
 from pathlib import Path
 
@@ -120,12 +122,12 @@ def get_predictions(models, X, y):
 
         model_score = m.score(y_pred, y)
 
-        print(f"For {m}, accuaracy: {model_score}")
+        logger.info(f"For {m}, accuaracy: {model_score}")
         mae = mean_absolute_error(y_pred, y)
-        print(f"MAE: {mae}")
+        logger.info(f"MAE: {mae}")
 
         rmse = np.sqrt(mean_squared_error(y_pred, y))
-        print(f"RMSE: {rmse}")
+        logger.info(f"RMSE: {rmse}")
 
 
 def main(args, logger):

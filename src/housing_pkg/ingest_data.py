@@ -41,6 +41,7 @@ def fetch_arguments():
     parser.add_argument(
         "-r", "--ratio", type=float, help="""Enter the test size ratio""", default=0.2
     )
+
     parser.add_argument(
         "-ll",
         "--log_level",
