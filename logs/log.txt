@@ -1,0 +1,4 @@
+2022-06-10 11:01:39,400|DEBUG|ingest_data.py|main|Downloading housing.tgz
+2022-06-10 11:01:39,401|INFO|ingest_data.py|main|Dataset extracted to ../../data/raw
+2022-06-10 11:01:39,465|DEBUG|ingest_data.py|main|housing.csv returned
+2022-06-10 11:01:39,775|DEBUG|ingest_data.py|main|train.csv and test.csv created in ../../data/processed succesfully!
